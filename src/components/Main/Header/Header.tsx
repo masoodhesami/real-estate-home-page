@@ -7,11 +7,11 @@ export default function Header() {
 
     return (
         <nav className="w-full mt-3">
-            <div className="justify-between px-4 mx-auto lg:max-w-7xl md:items-center md:flex md:px-8">
+            <div className="justify-between px-4 mx-auto lg:max-w-7xl md:items-center md:flex md:px-2">
                 <div>
                     <div className="flex items-center justify-between py-3 md:py-5 md:block">
                         <a href="javascript:void(0)">
-                            <img width={130} height={40} src="https://s24.picofile.com/file/8455277342/Group_2199.png" alt="company-logo" />
+                            <img className="w-[85px] md:w-[90px] lg:w-[120px] xl:w-[130px]" width={130} height={40} src="https://s24.picofile.com/file/8455277342/Group_2199.png" alt="company-logo" />
                         </a>
                         <div className="md:hidden">
                             <button
@@ -56,12 +56,12 @@ export default function Header() {
                         className={`flex-1 justify-self-center pb-3 mt-8 md:block md:pb-0 md:mt-0 ${navbar ? "block" : "hidden"
                             }`}
                     >
-                        <ul className="items-center justify-center text-gray-600 gap-x-4 text-[14px] space-y-8 md:flex md:space-x-6 md:space-y-0">
+                        <ul className="items-center justify-center text-gray-600 space-y-8 md:text-[13px] md:gap-x-2 md:flex md:space-x-2 md:space-y-0 xl:space-x-8 xl:text-[14px]">
                             <li className="hover:text-[#9D60EB]">
                                 <a href="javascript:void(0)">Home</a>
                                 <span className="inline-flex relative top-5 right-6
                                  justify-center items-center w-2 h-2 text-xs font-semibold 
-                                 text-blue-800 bg-[#9D60EB] rounded-full">
+                                 text-blue-800 bg-[#9D60EB] rounded-full hidden md:inline-block">
                                 </span>
                             </li>
                             <li className="hover:text-[#9D60EB]">
@@ -81,25 +81,14 @@ export default function Header() {
                             </li>
                         </ul>
 
-                        <div className="mt-3 space-y-2 lg:hidden md:inline-block">
-                            <a
-                                href="javascript:void(0)"
-                                className="inline-block w-full px-4 py-2 text-center text-white bg-gray-600 rounded-md shadow hover:bg-gray-800"
-                            >
-                                Sign in
-                            </a>
-                            <a
-                                href="javascript:void(0)"
-                                className="inline-block w-full px-4 py-2 text-center text-gray-800 bg-white rounded-md shadow hover:bg-gray-100"
-                            >
-                                Sign up
-                            </a>
+                        <div className="mt-3 space-y-2 lg:hidden md:inline-block md:hidden">
+                            <PurpleButton title={"Contact Us"} width="w-full" />
                         </div>
                     </div>
                 </div>
                 <div className="hidden space-x-2 md:inline-block">
                     <div className="flex">
-                        <div className="flex-initial w-64">
+                        <div className="flex-initial w-64 md:hidden lg:inline-block">
                             <SearchBox />
                         </div>
                         <div className="flex-initial w-32 relative top-1">
