@@ -2,7 +2,9 @@ import Header from "./Header/Header";
 
 const Main = () => {
     return (
-        <Header />
+        <>
+            <Header />
+        </>
     )
 }
 export default Main;
