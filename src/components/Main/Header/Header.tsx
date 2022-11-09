@@ -6,7 +6,7 @@ export default function Header() {
     const [navbar, setNavbar] = useState(false);
 
     return (
-        <nav className="w-full mt-3">
+        <nav className="w-full mt-2">
             <div className="justify-between px-4 mx-auto lg:max-w-7xl md:items-center md:flex md:px-2">
                 <div>
                     <div className="flex items-center justify-between py-3 md:py-5 md:block">
