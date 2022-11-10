@@ -10,7 +10,7 @@ export default function Header() {
             <div className="justify-between px-4 mx-auto lg:max-w-7xl md:items-center md:flex md:px-2">
                 <div>
                     <div className="flex items-center justify-between py-3 md:py-5 md:block">
-                        <a href="javascript:void(0)">
+                        <a href="#">
                             <img className="w-[85px] md:w-[90px] lg:w-[120px] xl:w-[130px]" width={130} height={40} src="https://s24.picofile.com/file/8455277342/Group_2199.png" alt="company-logo" />
                         </a>
                         <div className="md:hidden">
@@ -58,26 +58,26 @@ export default function Header() {
                     >
                         <ul className="items-center justify-center text-gray-600 space-y-8 md:text-[13px] md:gap-x-2 md:flex md:space-x-2 md:space-y-0 xl:space-x-8 xl:text-[14px]">
                             <li className="hover:text-[#9D60EB]">
-                                <a href="javascript:void(0)">Home</a>
+                                <a href="#">Home</a>
                                 <span className="inline-flex relative top-5 right-6
                                  justify-center items-center w-2 h-2 text-xs font-semibold 
                                  text-blue-800 bg-[#9D60EB] rounded-full hidden md:inline-block">
                                 </span>
                             </li>
                             <li className="hover:text-[#9D60EB]">
-                                <a href="javascript:void(0)">About</a>
+                                <a href="#">About</a>
                             </li>
                             <li className="hover:text-[#9D60EB]">
-                                <a href="javascript:void(0)">Portfolio</a>
+                                <a href="#">Portfolio</a>
                             </li>
                             <li className="hover:text-[#9D60EB]">
-                                <a href="javascript:void(0)">Product</a>
+                                <a href="#">Product</a>
                             </li>
                             <li className="hover:text-[#9D60EB]">
-                                <a href="javascript:void(0)">Career</a>
+                                <a href="#">Career</a>
                             </li>
                             <li className="hover:text-[#9D60EB]">
-                                <a href="javascript:void(0)">Blog</a>
+                                <a href="#">Blog</a>
                             </li>
                         </ul>
 
