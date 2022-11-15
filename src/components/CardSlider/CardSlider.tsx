@@ -1,5 +1,6 @@
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
+import HeadingProcess from "../Process/HeadingProcess";
 const CardSlider = () => {
     const cardsData = [
         {
@@ -20,7 +21,10 @@ const CardSlider = () => {
         }
     ]
     return (
-        <div className="container mx-auto px-40 mb-20">
+        <div className="container mx-auto px-40 mb-20 text-center">
+            <div className="mb-12">
+            <HeadingProcess title="What is the Speciality Of Us?" breakIndex={12} />
+            </div>
             <div
                 style={{
                     position: 'relative'
