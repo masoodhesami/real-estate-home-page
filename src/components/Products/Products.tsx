@@ -14,7 +14,7 @@ const Products = () => {
     ]
     return (
         <div className="container mx-auto px-36 text-center">
-            <div className="flex flex-row justify-center mt-32">
+            <div className="flex flex-row justify-center mt-24">
                 <div className="basis-auto">
                     <HeadingProcess title="Our Owning Products" breakIndex={Number(null)} />
                     <Paragraph />
