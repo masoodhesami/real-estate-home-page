@@ -1,6 +1,7 @@
 import CardSlider from "../components/CardSlider/CardSlider";
 import Main from "../components/Main/Main";
 import Process from "../components/Process/Process";
+import Products from "../components/Products/Products";
 
 
 const HomeScreen = () => {
@@ -9,6 +10,7 @@ const HomeScreen = () => {
             <Main />
             <Process />
             <CardSlider />
+            <Products />
         </>
     )
 }
